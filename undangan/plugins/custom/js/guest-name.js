@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const urlParams=new URLSearchParams(window.location.search);const guestName=urlParams.get("to");if(guestName){const nameToDisplay=decodeURIComponent(guestName.replace(/\+/g," "));const guestNameElements=document.querySelectorAll(".guest-name");guestNameElements.forEach((element=>{element.textContent=nameToDisplay}))}}));
