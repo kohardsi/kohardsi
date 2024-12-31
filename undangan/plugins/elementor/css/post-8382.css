@@ -1335,7 +1335,7 @@ body.rtl .elementor-8382 .elementor-element.elementor-element-ff25d2d {
 }
 
 .elementor-8382 .elementor-element.elementor-element-42cd05bb:not(.elementor-motion-effects-element-type-background), .elementor-8382 .elementor-element.elementor-element-42cd05bb > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-image: url("../../tema/yuly.webp");
+    background-image: url("../../tema/yuly.jpg");
     background-position: top center;
     background-size: cover;
 }
@@ -1475,7 +1475,7 @@ body.rtl .elementor-8382 .elementor-element.elementor-element-7259dfcf {
 }
 
 .elementor-8382 .elementor-element.elementor-element-5654f371:not(.elementor-motion-effects-element-type-background), .elementor-8382 .elementor-element.elementor-element-5654f371 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-image: url("../../tema/teja.webp");
+    background-image: url("../../tema/teja.jpg");
     background-position: top center;
     background-size: cover;
 }
@@ -5700,3 +5700,13 @@ body.rtl .elementor-8382 .elementor-element.elementor-element-4301e822 {
 }
 
 /* End custom CSS */
+@media (max-width: 767px) {
+.elementor-8382 .elementor-element.elementor-element-23f6935b.e-con > div{
+    width: 15%;
+}
+}
+@media (max-width: 500px) {
+    .elementor-8382 .elementor-element.elementor-element-23f6935b.e-con{
+        width:75% !important;
+        inset-inline-start:unset !important
+    }
